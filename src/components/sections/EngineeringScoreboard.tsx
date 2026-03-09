@@ -221,7 +221,8 @@ export const EngineeringScoreboard = () => {
                 <p className="text-[10px] text-muted-foreground uppercase">{t('engineeringScoreboard.timeline.stats.rejections')}</p>
               </div>
               <div className="text-center p-2">
-                <p className="text-2xl font-bold text-yellow-500">63</p>
+                {/* Time from November 27th, 2025 to now */}
+                <p className="text-2xl font-bold text-yellow-500">{Math.floor((Date.now() - new Date('2025-11-27').getTime()) / (1000 * 60 * 60 * 24))}</p>
                 <p className="text-[10px] text-muted-foreground uppercase">{t('engineeringScoreboard.timeline.stats.daysFought')}</p>
               </div>
               <div className="text-center p-2">
