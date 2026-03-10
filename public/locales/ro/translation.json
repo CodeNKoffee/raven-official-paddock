@@ -263,8 +263,8 @@
     "drag": "Trage",
     "specs": {
       "chassis": {
-        "name": "Șasiu",
-        "detail": "3D-Printed / Șasiu RAVEN Custom"
+        "name": "Șasiu (Flotă)",
+        "detail": "3x Șasiuri RAVEN 3D-Printed Identice"
       },
       "brain": {
         "name": "Unitate Centrală",
@@ -287,9 +287,9 @@
         "detail": "IMU Integrat Arduino (9-DOF)"
       },
       "battery": {
-        "name": "Baterie",
-        "model": "2S LiPo (2200mAh)",
-        "detail": "Alimentare prin PCB Custom"
+        "name": "Sistem Energie",
+        "model": "12x 2S LiPo (2200mAh)",
+        "detail": "Schiimburi de Competiție & Testare"
       },
       "powerboard": {
         "name": "Placă Putere",

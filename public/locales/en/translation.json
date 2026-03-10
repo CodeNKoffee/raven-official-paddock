@@ -264,8 +264,8 @@
     "drag": "Drag",
     "specs": {
       "chassis": {
-        "name": "Chassis",
-        "detail": "Custom 3D-Printed / RAVEN Chassis"
+        "name": "Chassis (Fleet)",
+        "detail": "3x Identical 3D-Printed RAVEN Chassis"
       },
       "brain": {
         "name": "Brain",
@@ -288,9 +288,9 @@
         "detail": "Built-in Arduino IMU (9-DOF)"
       },
       "battery": {
-        "name": "Battery",
-        "model": "2S LiPo (2200mAh)",
-        "detail": "Custom PCB Power Delivery"
+        "name": "Energy System",
+        "model": "12x 2S LiPo (2200mAh)",
+        "detail": "Extended Testing & Competition Swaps"
       },
       "powerboard": {
         "name": "Powerboard",

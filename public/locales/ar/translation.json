@@ -264,8 +264,8 @@
     "drag": "اسحب",
     "specs": {
       "chassis": {
-        "name": "الهيكل",
-        "detail": "هيكل مطبوع 3D / RAVEN خاص"
+        "name": "الهياكل (الأسطول)",
+        "detail": "3 هياكل RAVEN مطبوعة 3D متطابقة"
       },
       "brain": {
         "name": "العقل",
@@ -288,9 +288,9 @@
         "detail": "IMU مدمج في Arduino (9-DOF)"
       },
       "battery": {
-        "name": "البطارية",
-        "model": "2S LiPo (2200mAh)",
-        "detail": "توزيع الطاقة عبر PCB مخصص"
+        "name": "نظام الطاقة",
+        "model": "12 بطارية 2S LiPo (2200mAh)",
+        "detail": "اختبارات مكثفة وتوافر للمنافسة"
       },
       "powerboard": {
         "name": "لوحة الطاقة",

@@ -14,7 +14,7 @@ export const HardwareSpecs = () => {
     {
       icon: Car,
       name: t('hardwareSpecs.specs.chassis.name'),
-      model: 'RAVEN GP',
+      model: '3x RAVEN GP (Fleet)',
       detail: t('hardwareSpecs.specs.chassis.detail'),
       status: 'ready',
     },
@@ -56,7 +56,7 @@ export const HardwareSpecs = () => {
     {
       icon: Battery,
       name: t('hardwareSpecs.specs.battery.name'),
-      model: '2S LiPo 2200mAh',
+      model: '12x 2S LiPo 2200mAh',
       detail: t('hardwareSpecs.specs.battery.detail'),
       status: 'ready',
     },
