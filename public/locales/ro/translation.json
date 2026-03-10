@@ -92,10 +92,10 @@
       "onlyAfrican": "Singura Echipă din Africa",
       "events": "evenimente",
       "stats": {
-        "teamsSelected": "Echipe Selectate",
+        "qualificationTarget": "Calificați din 163 Candidați",
         "rejections": "Respingeri",
         "daysFought": "Zile de Luptă",
-        "victory": "Victorie"
+        "victory": "Prima Victorie"
       },
       "legend": {
         "competition": "Competiție",
@@ -201,6 +201,58 @@
       "23": {
         "event": "Verificare Securitate NSD",
         "description": "DHL confirmă statusul: Așteptăm avizul final de securitate de la NSD"
+      },
+      "24": {
+        "event": "Cerințe de autorizare NSD",
+        "description": "Notificare privind necesitatea certificatului CNSD și inspecția manuală la sediul central din Abbasiya."
+      },
+      "25": {
+        "event": "Coordonare taxe NSD",
+        "description": "Echipa negociază cu DHL și Bosch pentru gestionarea taxelor vamale specializate și reînnoirea transportului."
+      },
+      "26": {
+        "event": "Autorizare directă Bosch",
+        "description": "CFO-ul Bosch oferă autorizație directă pentru problemele vamale, conform cerințelor autorităților de reglementare."
+      },
+      "27": {
+        "event": "Pivot: Ședință de urgență",
+        "description": "Echipa decide să construiască o mașină personalizată de la zero după 80 de zile de întârziere."
+      },
+      "28": {
+        "event": "Tranziție la Constructor Autonom",
+        "description": "Echipa RAVEN notifică oficial Bosch despre construcția personalizată folosind componente locale conforme BoM."
+      },
+      "29": {
+        "event": "Undă verde de la Bosch",
+        "description": "Bosch aprobă construcția: 'Mașina arată grozav. Mult succes!'"
+      },
+      "30": {
+        "event": "Inițierea returnării",
+        "description": "Hatem instruiește oficial DHL să returneze transportul reținut către Bosch în România."
+      },
+      "31": {
+        "event": "Constructie proprie: Primul Boot",
+        "description": "Șasiul construit local este asamblat și alimentat cu energie pentru prima dată."
+      },
+      "32": {
+        "event": "Succes control wireless",
+        "description": "Mașina personalizată obține un control wireless stabil și capabilități de mapare manuală."
+      },
+      "33": {
+        "event": "Cerere deschidere cont RT",
+        "description": "Echipa solicită Bosch deschiderea unui cont RT pentru returnarea în siguranță a transportului."
+      },
+      "34": {
+        "event": "Finalizarea exportului",
+        "description": "DHL confirmă că transportul original este gata pentru re-export cu un nou AWB."
+      },
+      "35": {
+        "event": "Construcția Pistei",
+        "description": "Arena pregătită cu plăci de spumă și bandă adezivă pentru testele E2E finale."
+      },
+      "36": {
+        "event": "Succes Integrare Skynet",
+        "description": "Controlul Stanley și localizarea pe hartă finalizate; arhitectura Skynet obține performanță E2E pură pentru calificare."
       }
     }
   },

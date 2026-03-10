@@ -92,10 +92,10 @@
       "onlyAfrican": "Only Team from Africa",
       "events": "events",
       "stats": {
-        "teamsSelected": "Teams Selected",
+        "qualificationTarget": "Qualified from 163 Applicants",
         "rejections": "Rejections",
         "daysFought": "Days Fought",
-        "victory": "Victory"
+        "victory": "First Victory"
       },
       "legend": {
         "competition": "Competition",
@@ -201,6 +201,58 @@
       "23": {
         "event": "NSD Security Check",
         "description": "DHL confirmed status: Awaiting final security clearance from NSD"
+      },
+      "24": {
+        "event": "NSD Clearance Requirement",
+        "description": "Notified that CNSD certificate and manual inspection at Abbasiya HQ are required for approval."
+      },
+      "25": {
+        "event": "NSD Approval Fee Coordination",
+        "description": "Team negotiates with DHL and Bosch to handle specialized customs fees and shipment renewal."
+      },
+      "26": {
+        "event": "Bosch Authorization",
+        "description": "Bosch CFO provides direct authorization for customs issues, as requested by regulatory authorities."
+      },
+      "27": {
+        "event": "Pivot: Emergency Meeting",
+        "description": "Team decides to build a custom car from scratch after 80 days of delay to ensure competition readiness."
+      },
+      "28": {
+        "event": "Autonomous Constructor Transition",
+        "description": "Team RAVEN officially notifies Bosch of the custom build using locally sourced, BoM-compliant components."
+      },
+      "29": {
+        "event": "Bosch Green Light",
+        "description": "Bosch approves the custom build: 'The car looks great. Best of luck!'"
+      },
+      "30": {
+        "event": "Shipment Return Initiated",
+        "description": "Hatem officially instructs DHL to return the held shipment to Bosch in Romania."
+      },
+      "31": {
+        "event": "Custom Build: First Power",
+        "description": "The locally built chassis is assembled and powered for the first time."
+      },
+      "32": {
+        "event": "Wireless Control Success",
+        "description": "Custom car achieves stable wireless control and manual mapping capabilities."
+      },
+      "33": {
+        "event": "RT Account Opening Request",
+        "description": "Team requests Bosch to open an RT account for the shipment to be returned safely."
+      },
+      "34": {
+        "event": "Export Finalization",
+        "description": "DHL confirms the original shipment is ready for re-export with a new AWB."
+      },
+      "35": {
+        "event": "Track Construction",
+        "description": "Arena prepared with interlocking foam tiles and masking tape for final E2E testing."
+      },
+      "36": {
+        "event": "Full Stack Skynet Success",
+        "description": "Stanley Control and map-based localization finalized; Skynet architecture achieves pure E2E performance for qualification."
       }
     }
   },

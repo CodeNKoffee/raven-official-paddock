@@ -68,7 +68,20 @@ export const EngineeringScoreboard = () => {
     { date: 'Jan 24, 2026', status: 'approved', type: 'customs' },
     { date: 'Jan 26, 2026', status: 'approved', type: 'customs' },
     { date: 'Jan 28, 2026', status: 'pending', type: 'customs' },
-    { date: 'Feb 2, 2026', status: 'pending', type: 'nsd' },
+    { date: 'Feb 2, 2026', status: 'pending', type: 'nsd' },    // 23
+    { date: 'Feb 3, 2026', status: 'info', type: 'nsd' },       // 24
+    { date: 'Feb 7, 2026', status: 'pending', type: 'nsd' },    // 25
+    { date: 'Feb 9, 2026', status: 'pending', type: 'competition' }, // 26
+    { date: 'Feb 14, 2026', status: 'info', type: 'constructor' }, // 27
+    { date: 'Feb 15, 2026', status: 'info', type: 'competition' }, // 28
+    { date: 'Feb 18, 2026', status: 'approved', type: 'competition' }, // 29
+    { date: 'Feb 19, 2026', status: 'info', type: 'customs' },   // 30
+    { date: 'Feb 20, 2026', status: 'approved', type: 'constructor' }, // 31
+    { date: 'Feb 21, 2026', status: 'approved', type: 'constructor' }, // 32
+    { date: 'Feb 24, 2026', status: 'pending', type: 'customs' }, // 33
+    { date: 'Mar 2, 2026', status: 'approved', type: 'customs' },  // 34
+    { date: 'Mar 7, 2026', status: 'approved', type: 'constructor' }, // 35
+    { date: 'Mar 9, 2026', status: 'approved', type: 'competition' }, // 36
   ];
 
   return (
@@ -105,7 +118,7 @@ export const EngineeringScoreboard = () => {
           {/* Countdown */}
           <div className="p-6 rounded-2xl bg-gradient-to-br from-[hsl(0,0%,8%)] to-[hsl(0,0%,4%)] border border-white/5">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center shrink-0">
                 <Calendar className="w-5 h-5 text-primary" />
               </div>
               <span className="text-sm text-muted-foreground uppercase tracking-wider">
@@ -133,7 +146,7 @@ export const EngineeringScoreboard = () => {
           {/* Development Phase */}
           <div className="p-6 rounded-2xl bg-gradient-to-br from-[hsl(0,0%,8%)] to-[hsl(0,0%,4%)] border border-white/5">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-accent/20 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-accent/20 flex items-center justify-center shrink-0">
                 <Gauge className="w-5 h-5 text-accent" />
               </div>
               <span className="text-sm text-muted-foreground uppercase tracking-wider">
@@ -160,7 +173,7 @@ export const EngineeringScoreboard = () => {
           {/* Car Status */}
           <div className="p-6 rounded-2xl bg-gradient-to-br from-[hsl(0,0%,8%)] to-[hsl(0,0%,4%)] border border-white/5">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-yellow-500/20 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-yellow-500/20 flex items-center justify-center shrink-0">
                 <Truck className="w-5 h-5 text-yellow-500" />
               </div>
               <span className="text-sm text-muted-foreground uppercase tracking-wider">
@@ -214,22 +227,25 @@ export const EngineeringScoreboard = () => {
 
             {/* Summary stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6 p-4 rounded-xl bg-black/30 border border-white/5">
-              <div className="text-center p-2">
-                <p className="text-2xl font-bold text-primary">78</p>
-                <p className="text-[10px] text-muted-foreground uppercase">{t('engineeringScoreboard.timeline.stats.teamsSelected')}</p>
+              <div className="text-center p-2 flex flex-col justify-center border-r border-white/5 last:border-0 h-16">
+                <div className="flex items-baseline justify-center gap-1">
+                  <p className="text-2xl font-bold text-white tracking-tighter">22</p>
+                  <p className="text-xs text-muted-foreground font-medium">/ 78</p>
+                  <p className="text-[10px] text-muted-foreground/60 italic ml-0.5">from 163</p>
+                </div>
+                <p className="text-[9px] text-primary uppercase font-bold tracking-widest leading-none mt-1">{t('engineeringScoreboard.timeline.stats.qualificationTarget')}</p>
               </div>
-              <div className="text-center p-2">
+              <div className="text-center p-2 flex flex-col justify-center border-r border-white/5 last:border-0 h-16">
                 <p className="text-2xl font-bold text-red-500">4</p>
-                <p className="text-[10px] text-muted-foreground uppercase">{t('engineeringScoreboard.timeline.stats.rejections')}</p>
+                <p className="text-[9px] text-muted-foreground uppercase font-bold tracking-widest leading-none mt-1">{t('engineeringScoreboard.timeline.stats.rejections')}</p>
               </div>
-              <div className="text-center p-2">
-                {/* Time from November 27th, 2025 to now */}
+              <div className="text-center p-2 flex flex-col justify-center border-r border-white/5 last:border-0 h-16">
                 <p className="text-2xl font-bold text-yellow-500">{Math.floor((Date.now() - new Date('2025-11-27').getTime()) / (1000 * 60 * 60 * 24))}</p>
-                <p className="text-[10px] text-muted-foreground uppercase">{t('engineeringScoreboard.timeline.stats.daysFought')}</p>
+                <p className="text-[9px] text-muted-foreground uppercase font-bold tracking-widest leading-none mt-1">{t('engineeringScoreboard.timeline.stats.daysFought')}</p>
               </div>
-              <div className="text-center p-2">
+              <div className="text-center p-2 flex flex-col justify-center h-16">
                 <p className="text-2xl font-bold text-green-500">1</p>
-                <p className="text-[10px] text-muted-foreground uppercase">{t('engineeringScoreboard.timeline.stats.victory')}</p>
+                <p className="text-[9px] text-muted-foreground uppercase font-bold tracking-widest leading-none mt-1">{t('engineeringScoreboard.timeline.stats.victory')}</p>
               </div>
             </div>
 
@@ -274,7 +290,10 @@ export const EngineeringScoreboard = () => {
                           ? 'bg-primary/20 text-primary'
                           : 'bg-yellow-500/20 text-yellow-500'
                           }`}>
-                          {item.type === 'competition' ? 'BFMC' : item.type === 'nsd' ? 'DHL/NSD' : 'DHL/NTRA'}
+                          {item.type === 'competition' ? 'BFMC' :
+                            item.type === 'nsd' ? 'DHL/NSD' :
+                              item.type === 'constructor' ? 'CONSTRUCTOR' :
+                                'DHL/NTRA'}
                         </span>
                         {item.status === 'approved' && (
                           <span className="text-[10px] px-2 py-0.5 rounded-full bg-green-500/20 text-green-500">
