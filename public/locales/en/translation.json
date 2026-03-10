@@ -27,16 +27,16 @@
     "subtitle": "Our simulation-first approach ensures every algorithm is battle-tested before deployment.",
     "steps": {
       "0": {
-        "title": "The Digital Twin (Gazebo)",
-        "description": "We build and test every line of code in a simulated \"Smart City\" before it ever touches a wheel."
+        "title": "Skynet Architecture",
+        "description": "Our custom multiprocessing brain handles perception, localization, and planning in parallel, ensuring deterministic performance and modularity."
       },
       "1": {
-        "title": "The Brain-Spine Handshake",
-        "description": "Our custom Serial Protocol ensures the logic (Python) and the reflexes (C++) are perfectly synchronized."
+        "title": "Path Tracking (Stanley)",
+        "description": "Our Stanley Controller accurately calculates steering gradients, minimizing lateral error to maintain the racing line with surgical precision."
       },
       "2": {
-        "title": "Sim-to-Real Deployment",
-        "description": "The moment the car arrives, we transfer our 90% tested software onto the physical Reely TC-04 chassis."
+        "title": "Real-World Deployment",
+        "description": "The final 10% happens on asphalt. We deploy our simulation-hardened stack onto the physical Reely TC-04 chassis for field testing."
       }
     }
   },

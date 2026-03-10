@@ -27,16 +27,16 @@
     "subtitle": "Abordarea noastră 'simulation-first' asigură că fiecare algoritm este testat înainte de implementare.",
     "steps": {
       "0": {
-        "title": "Geamănul Digital (Gazebo)",
-        "description": "Construim și testăm fiecare linie de cod într-un 'Smart City' simulat înainte de a atinge o roată."
+        "title": "Arhitectura Skynet",
+        "description": "Sistemul nostru personalizat de multiprocesare gestionează percepția, localizarea și planificarea în paralel, asigurând o performanță deterministă și modularitate."
       },
       "1": {
-        "title": "Strângerea de mână Creier-Coloană",
-        "description": "Protocolul nostru Serial personalizat asigură sincronizarea perfectă între logică (Python) și reflexe (C++)."
+        "title": "Urmărirea Traseului (Stanley)",
+        "description": "Controlerul nostru Stanley calculează cu precizie gradienții de direcție, minimizând eroarea laterală pentru a menține linia de cursă cu o precizie chirurgicală."
       },
       "2": {
-        "title": "Implementare Sim-to-Real",
-        "description": "În momentul în care mașina sosește, transferăm software-ul testat în proporție de 90% pe șasiul fizic Reely TC-04."
+        "title": "Implementare în Lumea Reală",
+        "description": "Ultimii 10% se întâmplă pe asfalt. Implementăm stiva noastră întărită prin simulare pe șasiul fizic Reely TC-04 pentru teste pe teren."
       }
     }
   },
