@@ -67,6 +67,7 @@
     "title": "Engineering Scoreboard",
     "countdown": {
       "daysTo": "Days to Qualification",
+      "daysSince": "Days since Qualification",
       "qualificationRound": "March 9th, 2026 — Qualification Round"
     },
     "devPhase": {

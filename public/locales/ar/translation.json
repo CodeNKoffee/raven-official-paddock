@@ -66,7 +66,8 @@
     "missionControl": "مركز التحكم",
     "title": "لوحة المعلومات الهندسية",
     "countdown": {
-      "daysTo": "أيام حتى التأهيل",
+      "daysTo": "أيام متبقية على التأهيل",
+      "daysSince": "أيام مرت منذ موعد التأهيل",
       "qualificationRound": "9 مارس 2026 — جولة التأهيل"
     },
     "devPhase": {

@@ -3,20 +3,20 @@ import { motion } from 'framer-motion';
 import { Calendar, Gauge, Truck, ChevronDown, ChevronUp, CheckCircle2, XCircle, Clock, FileCheck } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-// Calculate days until March 9th, 2026
+// Calculate time relative to March 9th, 2026
 const getCountdown = () => {
   const target = new Date('2026-03-09T00:00:00');
   const now = new Date();
-  const diff = target.getTime() - now.getTime();
-
-  if (diff <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+  const diff = Math.abs(target.getTime() - now.getTime());
 
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
   const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-  return { days, hours, minutes, seconds };
+  const isPast = now.getTime() > target.getTime();
+
+  return { days, hours, minutes, seconds, isPast };
 };
 
 const getStatusIcon = (status: string) => {
@@ -109,7 +109,9 @@ export const EngineeringScoreboard = () => {
                 <Calendar className="w-5 h-5 text-primary" />
               </div>
               <span className="text-sm text-muted-foreground uppercase tracking-wider">
-                {t('engineeringScoreboard.countdown.daysTo')}
+                {countdown.isPast
+                  ? t('engineeringScoreboard.countdown.daysSince')
+                  : t('engineeringScoreboard.countdown.daysTo')}
               </span>
             </div>
             <div className="flex items-baseline gap-1 rtl:flex-row-reverse">

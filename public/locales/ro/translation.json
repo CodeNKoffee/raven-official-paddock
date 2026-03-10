@@ -67,6 +67,7 @@
     "title": "Tabel de Bord Ingineresc",
     "countdown": {
       "daysTo": "Zile până la Calificare",
+      "daysSince": "Zile scurse de la Calificare",
       "qualificationRound": "9 Martie 2026 — Runda de Calificare"
     },
     "devPhase": {
