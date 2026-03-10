@@ -27,16 +27,16 @@
     "subtitle": "Our simulation-first approach ensures every algorithm is battle-tested before deployment.",
     "steps": {
       "0": {
-        "title": "Skynet Architecture",
-        "description": "Our custom multiprocessing brain handles perception, localization, and planning in parallel, ensuring deterministic performance and modularity."
+        "title": "Skynet Core",
+        "description": "Our multiprocessing brain processes perception and planning in a virtualized E2E environment before hardware validation."
       },
       "1": {
-        "title": "Path Tracking (Stanley)",
-        "description": "Our Stanley Controller accurately calculates steering gradients, minimizing lateral error to maintain the racing line with surgical precision."
+        "title": "Brain-Spine Sync",
+        "description": "Our custom Serial Protocol ensures the logic (Python) and the reflexes (C++) on the RP2040 are perfectly synchronized."
       },
       "2": {
-        "title": "Real-World Deployment",
-        "description": "The final 10% happens on asphalt. We deploy our simulation-hardened stack onto the physical Reely TC-04 chassis for field testing."
+        "title": "RAVEN Deployment",
+        "description": "Our simulation-hardened stack is deployed onto the custom 3D-printed chassis, achieving full autonomous parity on day one."
       }
     }
   },
@@ -71,14 +71,14 @@
       "qualificationRound": "March 9th, 2026 — Qualification Round"
     },
     "devPhase": {
-      "label": "Development Phase",
-      "simulation": "Simulation & Integration",
-      "preparing": "65% — Preparing for hardware integration"
+      "label": "Build Progress",
+      "simulation": "Custom Platform Assembly",
+      "preparing": "90% — Skynet Integrated on 3D Chassis"
     },
     "carStatus": {
-      "label": "Car Status",
-      "customsCleared": "Customs Cleared",
-      "ntraApproved": "NTRA Approved"
+      "label": "Hardware Status",
+      "customsCleared": "Autonomous Constructor",
+      "ntraApproved": "RP2040 / RealSense Active"
     },
     "time": {
       "days": "days",
@@ -265,36 +265,36 @@
     "specs": {
       "chassis": {
         "name": "Chassis",
-        "detail": "1/10 Scale On-Road"
+        "detail": "Custom 3D-Printed / RAVEN Chassis"
       },
       "brain": {
         "name": "Brain",
-        "detail": "8GB RAM — Main SoC"
+        "detail": "Raspberry Pi 4B / Jetson — Main SoC"
       },
       "controller": {
         "name": "Controller",
-        "detail": "STM32 — Motor & Sensors"
+        "detail": "Arduino RP2040 Connect"
       },
       "motor": {
         "name": "Motor",
-        "detail": "1200KV Brushless + ESC"
+        "detail": "Quickrun Fusion SE 1200KV"
       },
       "camera": {
         "name": "Camera",
-        "detail": "Wide-Angle Monocular"
+        "detail": "Intel RealSense D435"
       },
       "imu": {
         "name": "IMU",
-        "detail": "9-DOF — Accel/Gyro/Mag"
+        "detail": "Built-in Arduino IMU (9-DOF)"
       },
       "battery": {
         "name": "Battery",
-        "model": "2S LiPo (Pending)",
-        "detail": "Expected: 4500-6200 mAh"
+        "model": "2S LiPo (2200mAh)",
+        "detail": "Custom PCB Power Delivery"
       },
       "powerboard": {
         "name": "Powerboard",
-        "detail": "Dual Battery, 9/12/18V"
+        "detail": "Custom RAVEN PCB — 9/12/18V"
       }
     }
   },

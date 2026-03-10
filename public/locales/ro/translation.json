@@ -27,16 +27,16 @@
     "subtitle": "Abordarea noastră 'simulation-first' asigură că fiecare algoritm este testat înainte de implementare.",
     "steps": {
       "0": {
-        "title": "Arhitectura Skynet",
-        "description": "Sistemul nostru personalizat de multiprocesare gestionează percepția, localizarea și planificarea în paralel, asigurând o performanță deterministă și modularitate."
+        "title": "Nucleul Skynet",
+        "description": "Creierul nostru multiprocesare procesează percepția și planificarea într-un mediu virtual E2E înainte de validarea hardware."
       },
       "1": {
-        "title": "Urmărirea Traseului (Stanley)",
-        "description": "Controlerul nostru Stanley calculează cu precizie gradienții de direcție, minimizând eroarea laterală pentru a menține linia de cursă cu o precizie chirurgicală."
+        "title": "Sincronizare Creier-Spină",
+        "description": "Protocolul Serial personalizat asigură sincronizarea perfectă între logică (Python) și reflexe (C++) pe RP2040."
       },
       "2": {
-        "title": "Implementare în Lumea Reală",
-        "description": "Ultimii 10% se întâmplă pe asfalt. Implementăm stiva noastră întărită prin simulare pe șasiul fizic Reely TC-04 pentru teste pe teren."
+        "title": "Implementare RAVEN",
+        "description": "Stack-ul nostru testat în simulare este implementat pe șasiul custom printat 3D, atingând paritatea autonomă completă din prima zi."
       }
     }
   },
@@ -71,14 +71,14 @@
       "qualificationRound": "9 Martie 2026 — Runda de Calificare"
     },
     "devPhase": {
-      "label": "Faza de Dezvoltare",
-      "simulation": "Simulare & Integrare",
-      "preparing": "65% — Pregătire pentru integrarea hardware"
+      "label": "Progres Construcție",
+      "simulation": "Asamblare Platformă Custom",
+      "preparing": "90% — Skynet integrat pe șasiu 3D"
     },
     "carStatus": {
-      "label": "Status Mașină",
-      "customsCleared": "Vămuire Completă",
-      "ntraApproved": "Aprobat NTRA"
+      "label": "Status Hardware",
+      "customsCleared": "Constructor Autonom",
+      "ntraApproved": "Sistem RP2040 / RealSense"
     },
     "time": {
       "days": "zile",
@@ -260,41 +260,40 @@
     "title": "Specificații Hardware",
     "subtitle": "Specificații Vehicul",
     "description": "Anatomia atletului nostru autonom — componente de precizie lucrând în armonie.",
-    "pending": "În așteptare",
     "drag": "Trage",
     "specs": {
       "chassis": {
         "name": "Șasiu",
-        "detail": "Scara 1/10 On-Road"
+        "detail": "3D-Printed / Șasiu RAVEN Custom"
       },
       "brain": {
-        "name": "Creier",
-        "detail": "8GB RAM — SoC Principal"
+        "name": "Unitate Centrală",
+        "detail": "Raspberry Pi 4B / Jetson — SoC Principal"
       },
       "controller": {
         "name": "Controler",
-        "detail": "STM32 — Motor & Senzori"
+        "detail": "Arduino RP2040 Connect"
       },
       "motor": {
         "name": "Motor",
-        "detail": "1200KV Brushless + ESC"
+        "detail": "Quickrun Fusion SE 1200KV"
       },
       "camera": {
         "name": "Cameră",
-        "detail": "Monocular Unghi Larg"
+        "detail": "Intel RealSense D435"
       },
       "imu": {
         "name": "IMU",
-        "detail": "9-DOF — Accel/Gyro/Mag"
+        "detail": "IMU Integrat Arduino (9-DOF)"
       },
       "battery": {
         "name": "Baterie",
-        "model": "2S LiPo (În așteptare)",
-        "detail": "Așteptat: 4500-6200 mAh"
+        "model": "2S LiPo (2200mAh)",
+        "detail": "Alimentare prin PCB Custom"
       },
       "powerboard": {
-        "name": "Placă Alimentare",
-        "detail": "Baterie Dublă, 9/12/18V"
+        "name": "Placă Putere",
+        "detail": "PCB RAVEN Custom — 9/12/18V"
       }
     }
   },

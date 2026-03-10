@@ -14,56 +14,56 @@ export const HardwareSpecs = () => {
     {
       icon: Car,
       name: t('hardwareSpecs.specs.chassis.name'),
-      model: 'Reely TC-04',
+      model: 'RAVEN GP',
       detail: t('hardwareSpecs.specs.chassis.detail'),
       status: 'ready',
     },
     {
       icon: Cpu,
       name: t('hardwareSpecs.specs.brain.name'),
-      model: 'Raspberry Pi 5',
+      model: 'RPi 4B / Jetson',
       detail: t('hardwareSpecs.specs.brain.detail'),
       status: 'ready',
     },
     {
       icon: Microchip,
       name: t('hardwareSpecs.specs.controller.name'),
-      model: 'Nucleo F401RE',
+      model: 'RP2040 Connect',
       detail: t('hardwareSpecs.specs.controller.detail'),
       status: 'ready',
     },
     {
       icon: Zap,
       name: t('hardwareSpecs.specs.motor.name'),
-      model: 'Quickrun Fusion SE',
+      model: 'Fusion SE 1200KV',
       detail: t('hardwareSpecs.specs.motor.detail'),
       status: 'ready',
     },
     {
       icon: Camera,
       name: t('hardwareSpecs.specs.camera.name'),
-      model: 'RPi Camera Module 3',
+      model: 'Intel RealSense',
       detail: t('hardwareSpecs.specs.camera.detail'),
       status: 'ready',
     },
     {
       icon: Compass,
       name: t('hardwareSpecs.specs.imu.name'),
-      model: 'Custom IMU Board',
+      model: 'Arduino IMU',
       detail: t('hardwareSpecs.specs.imu.detail'),
       status: 'ready',
     },
     {
       icon: Battery,
       name: t('hardwareSpecs.specs.battery.name'),
-      model: t('hardwareSpecs.specs.battery.model'),
+      model: '2S LiPo 2200mAh',
       detail: t('hardwareSpecs.specs.battery.detail'),
-      status: 'pending',
+      status: 'ready',
     },
     {
       icon: Cable,
       name: t('hardwareSpecs.specs.powerboard.name'),
-      model: 'Custom PCB',
+      model: 'RAVEN Custom PCB',
       detail: t('hardwareSpecs.specs.powerboard.detail'),
       status: 'ready',
     },
@@ -321,7 +321,7 @@ export const HardwareSpecs = () => {
                       className="text-3xl font-bold text-white racing-headline"
                       style={{ transform: 'translateZ(40px)' }}
                     >
-                      TC-04
+                      RAVEN
                     </motion.p>
                     <motion.p
                       className="text-sm text-muted-foreground mb-4"
@@ -335,16 +335,16 @@ export const HardwareSpecs = () => {
                       style={{ transform: 'translateZ(45px)' }}
                     >
                       <motion.span
-                        className="px-3 py-1.5 text-xs font-semibold rounded-full bg-primary/20 text-primary border border-primary/40"
+                        className="px-4 py-1.5 text-xs font-semibold rounded-full bg-primary/20 text-primary border border-primary/40"
                         whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(59,130,246,0.5)' }}
                       >
-                        ROS2
+                        Skynet Infused
                       </motion.span>
                       <motion.span
-                        className="px-3 py-1.5 text-xs font-semibold rounded-full bg-accent/20 text-accent border border-accent/40"
+                        className="px-4 py-1.5 text-xs font-semibold rounded-full bg-accent/20 text-accent border border-accent/40"
                         whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(34,197,94,0.5)' }}
                       >
-                        FreeRTOS
+                        Constructor AI
                       </motion.span>
                     </motion.div>
                   </div>
